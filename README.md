@@ -32,3 +32,32 @@ To run this application locally, you will need to run the backend and the fronte
 ```bash
 git clone [https://github.com/Namannnn24/cicd-recommendation-system.git](https://github.com/Namannnn24/cicd-recommendation-system.git)
 cd cicd-recommendation-system
+2. Start the Python Backend
+Open your first terminal in the root directory and start the FastAPI server:
+
+Bash
+# (Optional) Activate your virtual environment if you use one
+# Windows: .venv\Scripts\activate
+# Mac/Linux: source .venv/bin/activate
+
+# Run the server
+uvicorn main:app --reload
+The backend will run on http://127.0.0.1:8000
+3. Start the React Frontend
+Open a second, split terminal, navigate to the frontend folder, and start Vite:
+
+Bash
+cd frontend
+npm install
+npm run dev
+The frontend will run on http://localhost:5173
+🧪 Testing the Logic
+You can test the system's routing logic by inputting different repository types:
+
+Java/Spring (Maven): https://github.com/spring-projects/spring-boot
+
+Python (Pytest): https://github.com/pallets/flask
+
+Generic/Node.js: https://github.com/facebook/react
+
+Built for the future of automated DevOps.
